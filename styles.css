@@ -8,7 +8,8 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg, #010758, #490d61) ;
+    /* background: linear-gradient(45deg, #010758, #490d61) ; */
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTlmN2t4aHc4NndkeG5kcmRmaW11dm9wYzlpM3c2N2h1MGJrMzl4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Qvp6Z2fidQR34IcwQ5/giphy.webp");
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,11 +40,13 @@ textarea{
     border-radius: 10px;
     resize: none;
     margin-bottom: 30px;
+    opacity: 0.5;
 } 
 
 textarea::placeholder{
     font-size: 16px;
-    color: #ddd;
+    /* color: #ddd; */
+    color: #0dd209;
 }
 
 .row{
@@ -77,7 +80,7 @@ select{
     padding: 0 20px;
     outline: 0;
     border: 0;
-    border-radius: 35px;
+    border-radius: 18px;
     appearance: none;
     background-image: url(chevron.png);
     background-repeat: no-repeat;
@@ -86,6 +89,4 @@ select{
     background-position-y: 20px;
 
 }
-
-
 
